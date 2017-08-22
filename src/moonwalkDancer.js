@@ -2,7 +2,7 @@
 
 var makeMoonwalkDancer = function(top, left, timeBetweenSteps) {
 
-  makeDancer.call(this, top, left, timeBetweenSteps);
+  makeDancer.call(this, top, left, 1000);
 
   this.$node.addClass('moonwalker');
 

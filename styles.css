@@ -33,17 +33,31 @@ body, a:link, a:visited, a:active{
   
 }*/
 
-.move{
+.moonwalker.move {
   transition: all 0.9s;
-  transform: translateX(50px);
-  border:10px solid blue;
+  transform: translateX(100px);
+}
+
+.alien.move{
+  transition: all 1.5s;
+  transform: scale(2, 2);
 }
 
 .moonwalker{
   border: none;
   background: url('assets/astronaut.png') no-repeat center center;
   background-size: 100%;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   /*background-image: url('assets/astronaut.png');*/
 }
+
+.alien{
+  transition: all 1.5s;
+  border: none;
+  background: url('assets/alien.png');
+  background-size: 100%;
+  width: 80px;
+  height: 80px;
+}
+

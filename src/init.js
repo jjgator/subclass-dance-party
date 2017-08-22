@@ -28,6 +28,29 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+    dancers.push(dancer);
   });
+
+  $('.lineUpButton').on('click', function(event) {
+    for ( var i = 0; i < dancers.length; i++) {
+      dancers[i].lineUp();    
+    }
+  });
+  // Commented out for commit
+  // $('.joinDanceParty').on('click', function(event) {
+    
+  //   var closestDancer;
+  //   for (var i = 0; i < dancers.length; i++) {
+  //     dancers[i] 
+  //   }
+
+  // });
+
 });
 
+//for first dancer in the array, find the closest dancer
+//make those two dancers do something new
+//keep track of dancers already called
+//for second dancer called, find closest dancer that hasn't been called yet
+//make closest dancer do new thing too
+//set break to end function when all dancers have been called
