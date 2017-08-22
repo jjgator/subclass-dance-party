@@ -25,3 +25,13 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.dancer .moonwalk{
+  background-color: #b00;
+  
+}
+
+.dancer .moonwalk .move{
+  transition: all 0.5s;
+  transform: translateX(20px);
+}
