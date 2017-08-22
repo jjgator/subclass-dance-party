@@ -3,8 +3,10 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+ /* background-color:#444;*/
   font-size: 18px;
+  background: #444 url('assets/background-space.jpg') no-repeat center center;
+  background-size: 130%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -26,12 +28,22 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
-.dancer .moonwalk{
+/*.dancer .moonwalk{
   background-color: #b00;
   
+}*/
+
+.move{
+  transition: all 0.9s;
+  transform: translateX(50px);
+  border:10px solid blue;
 }
 
-.dancer .moonwalk .move{
-  transition: all 0.5s;
-  transform: translateX(20px);
+.moonwalker{
+  border: none;
+  background: url('assets/astronaut.png') no-repeat center center;
+  background-size: 100%;
+  width: 120px;
+  height: 120px;
+  /*background-image: url('assets/astronaut.png');*/
 }
