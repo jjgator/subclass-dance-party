@@ -36,21 +36,41 @@ $(document).ready(function() {
       dancers[i].lineUp();    
     }
   });
-  // Commented out for commit
-  // $('.joinDanceParty').on('click', function(event) {
-    
-  //   var closestDancer;
-  //   for (var i = 0; i < dancers.length; i++) {
-  //     dancers[i] 
-  //   }
 
+  // $('.joinButton').on('click', function(event) {
+
+  //   var partnered = [];
+
+  //   var currentDistance;
+    
+  //   var partnerFinder = function(dancers) {
+
+  //     var closest = {
+  //       dancer: null,
+  //       distance: null
+  //     };
+
+  //     for (var i = 1; i < dancers.length; i++) {
+  //       //currentDistance = distance between dancer[0] and dancer[i];
+  //       //if (closest.distance is null OR currentDistance is less than closest.distance) {
+  //         //closest.distance = currentDistance;
+  //         //closest.dancer = dancer[i];
+  //       //}
+  //     } 
+  //     //push dancer[0] and closest.dancer to partnered array
+  //     //call 'action' on dancer[0] and closest.dancer
+  //     //reset closest.distance = null;
+
+  //     //2nd 'on click' on joinButton...
+      
+  //     //{//if partnered.length is less than dancers.length, create new array with only dancers not found in partnered array
+  //         //recursively call partnerFinder on new array
+  //     //}
+      
+  //     //partnerFinder(dancers);
+  //   };     
+    
   // });
 
 });
 
-//for first dancer in the array, find the closest dancer
-//make those two dancers do something new
-//keep track of dancers already called
-//for second dancer called, find closest dancer that hasn't been called yet
-//make closest dancer do new thing too
-//set break to end function when all dancers have been called
